@@ -1,0 +1,66 @@
+body {
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+  padding: 1%;
+  background-color: #000000;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+header {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 3vw;
+}
+.img-iguana-mayor {
+  background-image: url("../img/bg-header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vw;
+  width: 100%;
+  vertical-align: middle;
+}
+.card {
+  display: flex;
+  margin: 3% 10%;
+}
+.card-body {
+  width: 50%;
+  margin-top: 3%;
+}
+.card-img-right {
+  padding: 3%;
+  margin-left: 6%;
+  width: 40%;
+}
+.card-text {
+  font-size: 1.2vw;
+  color: white;
+}
+.caracteristicas h2 {
+  font-size: 2vw;
+}
+.caracteristicas {
+  padding: 1%;
+  background-color: #1e1a13;
+  text-align: center;
+}
+.icons {
+  display: inline-block;
+  width: 30%;
+  font-size: 2vw;
+}
+.tres_iguanas {
+  display: flex;
+}
+.tres_iguanas img {
+  padding: 3%;
+  width: 50%;
+  height: 18vw;
+}
+footer {
+  background-color: #1e1a13;
+  text-align: center;
+  font-size: 1.1vw;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
